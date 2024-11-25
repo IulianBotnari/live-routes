@@ -12,6 +12,7 @@ body {
 :root {
     --react-library-dark: black;
     --react-library-light: white;
+    --react-library-active: violet;
 }
 
 header {
@@ -21,6 +22,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.active {
+    color: var(--react-library-active);
 
 }
 
