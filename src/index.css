@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+:root {
+    --react-library-dark: black;
+    --react-library-light: white;
+}
+
+header {
+    background-color: var(--react-library-dark);
+    color: var(--react-library-light);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    a {
+        text-decoration: none;
+        color: var(--react-library-light);
+        padding: 10px;
+    }
+
+}
