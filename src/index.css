@@ -32,3 +32,11 @@ nav {
     }
 
 }
+
+main {
+    margin: 2rem 0rem;
+
+    p {
+        margin-top: 2rem;
+    }
+}
