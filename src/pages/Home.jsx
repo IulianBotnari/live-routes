@@ -1,4 +1,5 @@
-
+import { Link, NavLink } from "react-router"
+import MainMenu from "../components/MainMenu"
 
 export default function Home() {
 
@@ -8,13 +9,7 @@ export default function Home() {
 
             <header className="logo">
                 <h1>Logo</h1>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/about">About</a>
-                    <a href="/contacts">Contacts</a>
-                    <a href="/books">Books</a>
-
-                </nav>
+                <MainMenu />
             </header>
             <main>
                 <h1>Home</h1>
